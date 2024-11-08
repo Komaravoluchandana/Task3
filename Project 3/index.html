@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Parlor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+            <li><a href="#joke">Joke of the Day</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content -->
+    <header id="home">
+        <h1>Welcome to the Ice Cream Parlour!</h1>
+    </header>
+    <!-- Image Carousel -->
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="images/1.jpg" alt="Cake Display 1">
+            <img src="images/2.jpg" alt="Cake Display 2">
+            <img src="images/3.jpg" alt="Cake Display 3">
+            <img src="images/4.jpg" alt="Cake Display 4">
+            <img src="images/5.jpg" alt="Cake Display 5">
+            <img src="images/6.webp" alt="Cake Display 6">
+            <img src="images/7.jpg" alt="Cake Display 7">
+            <img src="images/8.jpg" alt="Cake Display 8">
+        </div>
+    </div>
+    <p><b>🍦 Treat Yourself to a Scoop of Happiness! 🍦</b></p>
+    
+    <div id="text">
+        Welcome to <b>SUNDAE HAVEN</b> where every scoop is crafted with love! Made from the freshest ingredients, our flavors are here to bring a smile to your face and joy to your taste buds. From classic favorites like rich chocolate and creamy vanilla to our unique seasonal specials.
+    </div>
+    <main>
+        <section class="menu" id="menu">
+            <h2>Our Flavors</h2>
+            <div class="flavor">
+                <img src="images/9.jpg" alt="Mint Chocolate Chip">
+                <pre>Mint Chocolate Chip</pre>
+            </div>
+            <div class="flavor">
+                <img src="images/10.jpg" alt="Vanilla">
+                <pre>Vanilla</pre>
+            </div>
+            <div class="flavor">
+                <img src="images/11.jpg" alt="Blueberry">
+                <pre>Blueberry</pre>
+            </div>
+            <div class="flavor">
+                <img src="images/12.jpg" alt="Chocolate">
+                <pre>Chocolate</pre>
+            </div>
+            <div class="flavor">
+                <img src="images/13.jpg" alt="Cookies N' Cream">
+                <pre>Cookies N' Cream</pre>
+            </div>
+            <div class="flavor">
+                <img src="images/14.jpg" alt="Pistachio">
+                <pre>Pistachio</pre>
+            </div>
+            <div class="flavor">
+                <img src="images/15.jpg" alt="Lemon">
+                <pre>Lemon</pre>
+            </div>
+            <div class="flavor">
+                <img src="images/16.jpg" alt="Cookie Dough">
+                <pre>Cookie Dough</pre>
+            </div>
+            <div class="flavor">
+                <img src="images/17.jpg" alt="Strawberry">
+                <pre>Strawberry</pre>
+            </div>
+            <div class="flavor">
+                <img src="images/18.jpg" alt="Cotton Candy">
+                <pre>Cotton Candy</pre>
+            </div>
+        </section>
+        <section id="quiz">
+            <h2>Ice Cream Quiz</h2>
+            <div id="question-container"></div>
+            <button onclick="startQuiz()">Start Quiz</button>
+        </section>
+        <section id="joke">
+            <h2>Fun Joke of the Day</h2>
+            <button onclick="getJoke()">Get a Joke</button>
+            <p id="joke-text"></p>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

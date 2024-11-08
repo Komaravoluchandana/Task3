@@ -1,0 +1,115 @@
+/* Navbar styling */
+nav {
+    background-color:hotpink;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color:black;
+}
+/* Carousel */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width:450px;
+    overflow:hidden;
+    margin:20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.carousel-images {
+    display: flex;
+    transition: transform 0.6s ease;
+}
+.carousel img {
+    width: 100%;
+    max-width:800px;
+    max-height:800px;
+}
+#text {
+        text-align: center;
+        margin: 0 auto;
+        width: 55%;
+        color:black;
+}
+p{
+    color:crimson;
+}
+pre{
+    color:black;
+   font-size:larger;
+}
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+header {
+    background-color:mediumturquoise;
+    color:black;
+    padding: 20px;
+    margin:10px;
+}
+main {
+    padding: 2px;
+}
+.menu {
+    text-align: center;
+    background-color:lightgoldenrodyellow;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 18px;
+    display: inline-block;
+}
+.flavor {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+h2{
+    color:darkorange;
+}
+.flavor img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.flavor p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.flavor:hover{
+    transform:scale(1.1);
+    z-index:2;
+}
+#quiz{
+    background-color:lightpink;
+    padding: 20px;
+    margin:10px;
+}
+#quiz h2{
+    color:forestgreen;
+}
+#joke{
+    background-color:palegreen;
+    padding: 20px;
+    margin:10px;
+}
